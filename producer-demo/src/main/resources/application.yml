@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          ##destination refer to Kafka topic
+          destination: springboot-kafka
